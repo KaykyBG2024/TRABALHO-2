@@ -9,10 +9,10 @@
   <div class="dashboard-container">
     <nav>
       <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Relatórios</a></li>
-        <li><a href="#">Configurações</a></li>
+        <li><a href="#">🏠 Início</a></li>
+        <li><a href="#">🗃️ Projetos</a></li>
+        <li><a href="usuarios.php">👥 Usuários</a></li>
+        <li><a href="#">⚙️ Configurações</a></li>
       </ul>
       <div class="perfil-usuario">
         <img src="https://ui-avatars.com/api/?name=Kaka&background=6a0dad&color=fff" alt="Avatar">
@@ -44,7 +44,7 @@
   </div>
 
   <footer>
-    <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
+    <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I - Kayky</p>
   </footer>
 </body>
 </html>
