@@ -22,7 +22,7 @@ body {
 /* Sidebar */
 nav {
   width: 220px;
-  background-color: #6a0dad; /* Roxo */
+  background-color: #2f516f; 
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #4b0082;
+  background-color: #092946;
   color: #ffd700;
 }
 
@@ -89,7 +89,7 @@ article {
 }
 
 article h2 {
-  color: #6a0dad;
+  color: #353bea;
   margin-bottom: 10px;
 }
 
@@ -103,7 +103,7 @@ article p {
   margin-top: auto;
   display: inline-block;
   text-align: center;
-  background-color: #6a0dad;
+  background-color: #1fa9d7;
   color: white;
   padding: 10px;
   text-decoration: none;
