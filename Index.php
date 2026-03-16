@@ -12,7 +12,7 @@
         <li><a href="#">🏠 Início</a></li>
         <li><a href="#">🗃️ Projetos</a></li>
         <li><a href="usuarios.php">👥 Usuários</a></li>
-        <li><a href="cad-users.php">⚙️ cadastrar</a></li>
+        <li><a href="cad-users.php">➕ cadastrar</a></li>
       </ul>
       <div class="perfil-usuario">
         <img src="https://ui-avatars.com/api/?name=Kaka&background=6a0dad&color=fff" alt="Avatar">
