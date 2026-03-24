@@ -97,6 +97,7 @@
     transform:scale(1.03);
 }
 
+
 </style>
 
 
@@ -119,40 +120,22 @@
     <main>
       <section class="tabela-section">
 
-<h1>Cadastro de Usuário</h1>
+<h1>Cadastro de categoria</h1>
 <br><br>
 
-<form action="salvar_usuario.php" method="POST" class="form-usuarios">
+<form action="salvar_postagem.php" method="POST" class="form-usuarios">
 
 <div class="form-group">
-<label for="nome">Nome Completo</label>
-<input type="text" id="nome" name="nome" placeholder="Digite o nome completo" required>
-</div>
-
-<div class="form-group">
-<label for="email">E-mail</label>
-<input type="email" id="email" name="email" placeholder="Digite o e-mail" required>
-</div>
-
-<div class="form-group">
-<label for="senha">Senha</label>
-<input type="password" id="senha" name="senha" placeholder="Digite a senha" required>
-</div>
-
-<div class="form-group">
-<label for="perfil">Perfil de Usuário</label>
-<select id="perfil" name="perfil">
-<option value="admin">Administrador</option>
-<option value="usuario">Usuário</option>
-</select>
+<label for="nome">Nome da Categoria</label>
+<input type="text" id="nome" name="nome" placeholder="Digite o nome da categoria" required>
 </div>
 
 <div class="form-group botoes-form">
-<button type="submit" class="btn-salvar">Cadastrar Usuário</button>
+<button type="submit" class="btn-salvar">Salvar categorias</button>
 <button type="reset" class="btn-cancelar">Cancelar</button>
 </div>
 
-</form>
+</form>     
 
 </section>
     </main>

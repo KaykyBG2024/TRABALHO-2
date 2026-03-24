@@ -18,8 +18,7 @@
 }
 
 .form-usuarios{
-    width:100%;
-    max-width:650px;
+    width:650px;
     background:white;
     padding:35px;
     border-radius:12px;
@@ -97,6 +96,22 @@
     transform:scale(1.03);
 }
 
+textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+    resize:none;
+    min-height:150px;
+    transition:0.3s;
+}
+
+textarea:focus{
+    border-color:#6a0dad;
+    outline:none;
+    box-shadow:0 0 6px rgba(106,13,173,0.3);
+}
+
 </style>
 
 
@@ -119,40 +134,37 @@
     <main>
       <section class="tabela-section">
 
-<h1>Cadastro de Usuário</h1>
+<h1>Cadastro de categorias</h1>
 <br><br>
 
-<form action="salvar_usuario.php" method="POST" class="form-usuarios">
+<form action="salvar_postagem.php" method="POST" class="form-usuarios">
 
 <div class="form-group">
-<label for="nome">Nome Completo</label>
-<input type="text" id="nome" name="nome" placeholder="Digite o nome completo" required>
+<label for="titulo">Título</label>
+<input type="text" id="titulo" name="titulo" placeholder="Digite o título da postagem" required>
 </div>
 
 <div class="form-group">
-<label for="email">E-mail</label>
-<input type="email" id="email" name="email" placeholder="Digite o e-mail" required>
+<label for="conteudo">Conteúdo</label>
+<textarea id="conteudo" name="conteudo" placeholder="Digite o conteúdo da postagem..." required></textarea>
 </div>
 
 <div class="form-group">
-<label for="senha">Senha</label>
-<input type="password" id="senha" name="senha" placeholder="Digite a senha" required>
-</div>
-
-<div class="form-group">
-<label for="perfil">Perfil de Usuário</label>
-<select id="perfil" name="perfil">
-<option value="admin">Administrador</option>
-<option value="usuario">Usuário</option>
+<label for="categoria">Categoria</label>
+<select id="categoria" name="categoria">
+<option value="tecnologia">Tecnologia</option>
+<option value="noticias">Notícias</option>
+<option value="programacao">Programação</option>
+<option value="outros">Outros</option>
 </select>
 </div>
 
 <div class="form-group botoes-form">
-<button type="submit" class="btn-salvar">Cadastrar Usuário</button>
+<button type="submit" class="btn-salvar">Publicar Postagem</button>
 <button type="reset" class="btn-cancelar">Cancelar</button>
 </div>
 
-</form>
+</form>     
 
 </section>
     </main>

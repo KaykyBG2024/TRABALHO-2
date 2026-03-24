@@ -52,8 +52,8 @@
   <section class="tabela-section">
 
 <div class="topo-tabela">
-  <h1>Lista de usuários</h1>
-  <a href="cad-users.php" class="btn-cadastrar">➕ Cadastrar Usuário</a>
+  <h1>Lista de postagens</h1>
+  <a href="cad-post.php" class="btn-cadastrar">➕ Cadastrar Postagem</a>
 </div>
   
     <table class="tabela-usuarios">
@@ -61,11 +61,10 @@
       <thead>
         <tr>
           <th>ID</th>
-          <th>Nome</th>
-          <th>Email</th>
-          <th>Tipo</th>
+          <th>Titulo</th>
+          <th>Conteudo</th>
+          <th>Categoria</th>
           <th>Status</th>
-          <th>Ações</th>
         </tr>
       </thead>
 
@@ -73,27 +72,27 @@
 
         <tr>
           <td>1</td>
-          <td>Amaral Souza</td>
-          <td>Amaralzikabolado2k@email.com</td>
-          <td>Administrador</td>
+          <td>Primeiro Post</td>
+          <td>Primeira postagem</td>
+          <td>Teste</td>
           <td class="ativo">Ativo</td>
           <td><a href="#" class="btn-editar">Editar</a></td>
         </tr>
 
         <tr>
           <td>2</td>
-          <td>Gustavo Puga</td>
-          <td>puga@email.com</td>
-          <td>Usuário</td>
+          <td>Lorem Impsu</td>
+          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis, voluptatibus nesciunt, dolorem veniam necessitatibus tempore eligendi, itaque corporis similique provident ipsam nam officiis odit architecto voluptate commodi vitae sequi?</td>
+          <td>Lorem</td>
           <td class="inativo">Inativo</td>
           <td><a href="#" class="btn-editar">Editar</a></td>
         </tr>
 
         <tr>
           <td>3</td>
-          <td>Kayky Barbozane</td>
-          <td>kayky@email.com</td>
-          <td>Editor</td>
+          <td>Big Tecs</td>
+          <td>As big techs são as grandes empresas de tecnologia e inovação que apresentam dominância no mercado econômico. Destacam-se nomes como Google, Apple, Meta, Amazon e Microsoft.</td>
+          <td>Tecnologia</td>
           <td class="ativo">Ativo</td>
           <td><a href="#" class="btn-editar">Editar</a></td>
         </tr>
