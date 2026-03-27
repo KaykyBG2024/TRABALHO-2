@@ -168,7 +168,7 @@ do site.
 <label>Senha</label>
 <input type="password" name="senha" placeholder="Digite sua senha" required>
 </div>
-
+<br><br>
 <button type="submit" class="btn-login" href="inicio.php">Entrar no Sistema</button>
 
 </form>

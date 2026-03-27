@@ -25,6 +25,24 @@
     transition:0.3s;
 }
 
+.logout {
+  margin-top: 430px;
+}
+
+.logout a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.logout a:hover {
+  background-color: #092946;
+  color: #ffd700;
+}
+
 .btn-cadastrar:hover{
     background:#218838;
     transform:scale(1.05);
@@ -41,6 +59,11 @@
         <li><a href="usuarios.php"><i class="fa-solid fa-users"></i></i> Usuários</a></li>
         <li><a href="categorias.php"><i class="fa-solid fa-list"></i></i> Categorias</a></li>
       </ul> 
+
+<div class="logout">
+        <a href="index.php"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+      </div>
+
       <div class="perfil-usuario">
         <img src="https://ui-avatars.com/api/?name=Kaka&background=6a0dad&color=fff" alt="Avatar">
         <span>Kaká</span>
